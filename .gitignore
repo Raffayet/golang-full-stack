@@ -8,6 +8,8 @@
 *.dll
 *.so
 *.dylib
+*.zip
+main
 
 # Output of the go coverage tool
 *.out
