@@ -2,14 +2,13 @@ package api
 
 import (
 	"context"
+	"data-merging/internal/service"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
 	"time"
-
-	"github.com/Raffayet/data-merging/backend/internal/service"
 )
 
 // SpeechRecognitionHandler represents the handler for speech recognition

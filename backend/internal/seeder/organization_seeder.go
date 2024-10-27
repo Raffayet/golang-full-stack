@@ -2,13 +2,12 @@ package seeder
 
 import (
 	"context"
+	"data-merging/internal/domain"
+	"data-merging/internal/repository"
 	"log"
 	"os"
 	"strconv"
 	"time"
-
-	"github.com/Raffayet/data-merging/backend/internal/domain"
-	"github.com/Raffayet/data-merging/backend/internal/repository"
 )
 
 func createSeedOrganizations() []domain.Organization {

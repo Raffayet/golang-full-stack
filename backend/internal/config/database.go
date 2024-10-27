@@ -1,10 +1,10 @@
 package config
 
 import (
+	"data-merging/internal/repository"
 	"log"
 	"os"
 
-	"github.com/Raffayet/data-merging/backend/internal/repository"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

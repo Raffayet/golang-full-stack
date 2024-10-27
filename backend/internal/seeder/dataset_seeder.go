@@ -4,14 +4,14 @@ package seeder
 
 import (
 	"context"
+	"data-merging/internal/domain"
+	"data-merging/internal/repository"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/Raffayet/data-merging/backend/internal/domain"
-	"github.com/Raffayet/data-merging/backend/internal/repository"
 	"golang.org/x/exp/rand"
 )
 

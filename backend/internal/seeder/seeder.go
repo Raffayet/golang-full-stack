@@ -2,10 +2,9 @@ package seeder
 
 import (
 	"context"
+	"data-merging/internal/repository"
 	"log"
 	"time"
-
-	"github.com/Raffayet/data-merging/backend/internal/repository"
 )
 
 func GenerateDemoData(datasetRepo *repository.MongoDatasetRepository, organizationRepo *repository.MongoOrganizationRepository) {

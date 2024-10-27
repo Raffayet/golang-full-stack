@@ -2,16 +2,16 @@ package main
 
 import (
 	"context"
+	"data-merging/internal/api"
+	"data-merging/internal/config"
+	"data-merging/internal/repository"
+	"data-merging/internal/seeder"
+	"data-merging/internal/service"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
 
-	"github.com/Raffayet/data-merging/backend/internal/api"
-	"github.com/Raffayet/data-merging/backend/internal/config"
-	"github.com/Raffayet/data-merging/backend/internal/repository"
-	"github.com/Raffayet/data-merging/backend/internal/seeder"
-	"github.com/Raffayet/data-merging/backend/internal/service"
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 )

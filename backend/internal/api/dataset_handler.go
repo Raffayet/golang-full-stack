@@ -2,11 +2,10 @@ package api
 
 import (
 	"context"
+	"data-merging/internal/service"
 	"encoding/json"
 	"net/http"
 	"time"
-
-	"github.com/Raffayet/data-merging/backend/internal/service"
 )
 
 // DatasetHandler handles HTTP requests for profiles

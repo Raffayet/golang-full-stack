@@ -2,8 +2,8 @@ package repository
 
 import (
 	"context"
+	"data-merging/internal/domain"
 
-	"github.com/Raffayet/data-merging/backend/internal/domain"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

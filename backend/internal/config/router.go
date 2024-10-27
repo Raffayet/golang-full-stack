@@ -1,7 +1,8 @@
 package config
 
 import (
-	"github.com/Raffayet/data-merging/backend/internal/api"
+	"data-merging/internal/api"
+
 	"github.com/gorilla/mux"
 )
 

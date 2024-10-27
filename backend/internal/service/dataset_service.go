@@ -2,9 +2,8 @@ package service
 
 import (
 	"context"
-
-	"github.com/Raffayet/data-merging/backend/internal/domain"
-	"github.com/Raffayet/data-merging/backend/internal/repository"
+	"data-merging/internal/domain"
+	"data-merging/internal/repository"
 )
 
 // DatasetService defines methods for working with profiles
